@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// gitコミットテスト
+
 /// <summary>
 /// EnemyPointスクリプトの基本機能は、指定されたプレファブを自分自身と同じ位置に生成するというもの
 /// これにより、このEnemyPointをステージに配置するだけで、どの敵をどの位置に生成するかを指定できる。
