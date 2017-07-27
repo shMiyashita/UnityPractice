@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMFREEMAN!", "IMFREEMAN!.csproj", "{98FB98B2-71D2-5273-0C56-88422F7FBEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMFREEMAN!.Editor", "IMFREEMAN!.Editor.csproj", "{873983A3-086C-BA15-CD13-32DA316E2A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98FB98B2-71D2-5273-0C56-88422F7FBEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FB98B2-71D2-5273-0C56-88422F7FBEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FB98B2-71D2-5273-0C56-88422F7FBEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FB98B2-71D2-5273-0C56-88422F7FBEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873983A3-086C-BA15-CD13-32DA316E2A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873983A3-086C-BA15-CD13-32DA316E2A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873983A3-086C-BA15-CD13-32DA316E2A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873983A3-086C-BA15-CD13-32DA316E2A23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
