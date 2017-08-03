@@ -126,13 +126,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GameRecipe.Plugins.csproj">
-      <Project>{0EBBDEBA-D37E-5C49-4C12-D909BCC2D45B}</Project>
-      <Name>GameRecipe.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="GameRecipe.csproj">
       <Project>{82AC4E95-B8E7-0E8B-448A-0EE9AB593FAF}</Project>
       <Name>GameRecipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameRecipe.Plugins.csproj">
+      <Project>{0EBBDEBA-D37E-5C49-4C12-D909BCC2D45B}</Project>
+      <Name>GameRecipe.Plugins</Name>
     </ProjectReference>
     <ProjectReference Include="GameRecipe.Editor.Plugins.csproj">
       <Project>{7D5B3C36-5AF1-D87C-0F5F-493FD2403562}</Project>
@@ -141,6 +141,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GE Common Assets\GE Touch Joystick\CrossPlatformInput\Scripts\Editor\InputAxisScrollbarCI.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectControllerInspector.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectToolBar.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\RenderEffectInspector.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\ShaderCustomEditor\ShaderMaterialsEditor.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\XUIUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
@@ -151,6 +156,12 @@
     <None Include="Assets\GE Common Assets\Readme.txt" />
     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />

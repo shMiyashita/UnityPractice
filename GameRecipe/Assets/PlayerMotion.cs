@@ -19,11 +19,32 @@ public class PlayerMotion : MonoBehaviour {
         //モーションの切り替え
         if(cc.velocity.magnitude > 0f)
         {
-            animator.SetTrigger("param_idletorunning");
+            animator.SetBool("param_idletorunning",true);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                animator.SetBool("param_idletorunning", false);
+                animator.SetBool("jump", true);
+            }
+            else
+            {
+                animator.SetBool("jump", false);
+            }
         }
         else
         {
-            animator.ResetTrigger("param_idletorunning");
-        }
-	}
+            animator.SetBool("param_idletorunning", false);
+
+            if (Input.GetButtonDown("Jump"))
+            {
+                animator.SetBool("param_idletorunning", false);
+                animator.SetBool("jump", true);
+            }
+            else
+            {
+                animator.SetBool("jump", false);
+            }
+        }        
+
+    }
 }

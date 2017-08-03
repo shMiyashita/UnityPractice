@@ -33,8 +33,8 @@ public class PlayerCtrl : MonoBehaviour {
             transform.Rotate(0, Input.GetAxis("Horizontal2") * 3, 0);
 
             //カメラを回転させる
-            GameObject CameraParent = Camera.main.transform.parent.gameObject;
-            CameraParent.transform.Rotate(Input.GetAxis("Vertical2"), 0, 0);
+            Camera.main.transform.Rotate(Input.GetAxis("Vertical2"), 0, 0);
+
         }
 
         moveDirection.y -= gravity * Time.deltaTime;
