@@ -19,7 +19,7 @@ public class SimpleFollow : MonoBehaviour {
         //計算しておく
         diff = target.transform.position - transform.position;
 	}
-	
+
 	// Update is called once per frame
     //LateUpdateとは？→すべてのupdateが終わったあとに実行される。
     //よって、キャラクターの移動がすべて終わってからupdateを実行することが可能

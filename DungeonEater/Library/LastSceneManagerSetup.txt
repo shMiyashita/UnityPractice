@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/dev01/Desktop/Chapter3/DungeonEater/Assets/Scene/GameScene.unity
+  isLoaded: 1
+  isActive: 1
