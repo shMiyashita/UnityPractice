@@ -1,3 +1,4 @@
+//macでもcloneできた！
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,9 @@ public class shotBall : MonoBehaviour {
 
         //出現後一定時間で自動的に消滅させる
         Destroy(gameObject, 2.0f);
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
