@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour {
 
     public GameObject shot;
+    public GameObject muzzle;
 
     float shotInterval = 0;
-    float shotIntervalMax = 0.05f;
+    float shotIntervalMax = 0.01f;
 
     // Use this for initialization
     void Start () {
@@ -29,6 +30,9 @@ public class PlayerShoot : MonoBehaviour {
                 shotInterval = 0;
             }
 
+            //マズルフラッシュ
+            Instantiate(muzzle, transform.position, transform.rotation);
+
         }
-	}
+    }
 }

@@ -30,8 +30,7 @@ public class shotBall : MonoBehaviour {
             Destroy(gameObject); //.gameObject=自分自身
             Instantiate(explosion, transform.position, transform.rotation);
 
-            //あたってるかテスト
-            Debug.Log("cube hit OnCollisionEnter with " + collision.gameObject);
+
         }
 
     }
